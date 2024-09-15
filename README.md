@@ -8,9 +8,11 @@ Para que la aplicación funcione correctamente, debes seguir estos pasos antes d
 
 1. Clonar el repositorio en tu máquina local.
 
-2. Ejecutar el comando npm install para instalar las dependencias necesarias.
+2. cd climate-cast
 
-3. Crear un archivo .env en la raíz del proyecto e incluir tu clave de API (API_KEY) para los servicios de clima. Un ejemplo del archivo .env sería:
+3. Ejecutar el comando npm install para instalar las dependencias necesarias.
+
+4. Crear un archivo .env en la raíz del proyecto e incluir tu clave de API (API_KEY) para los servicios de clima. Un ejemplo del archivo .env sería:
 
 # TESTING
 
@@ -26,10 +28,10 @@ npm run dev
 4. Vitest: Utilizado para las pruebas unitarias, permitiendo un desarrollo basado en test de forma ágil.
 5. React Clean Code: La arquitectura del proyecto sigue las prácticas recomendadas para escribir código limpio en React, basadas en los siguientes recursos:
 
-- [Best Practices for Writing Clean React Code](https://dev.to/serifcolakel/best-practices-for-writing-clean-react-code-with-examples-4b90)
-- [Estructuras para organizar un proyecto React](https://reboot.studio/blog/es/estructuras-organizar-proyecto-react)
-  Arquitectura del proyecto:
-  SLa aplicación sigue una arquitectura modular y bien estructurada, que separa los componentes de lógica de negocio, presentación y estilo. Esta organización facilita la escalabilidad y el mantenimiento del código.
+-   [Best Practices for Writing Clean React Code](https://dev.to/serifcolakel/best-practices-for-writing-clean-react-code-with-examples-4b90)
+-   [Estructuras para organizar un proyecto React](https://reboot.studio/blog/es/estructuras-organizar-proyecto-react)
+    Arquitectura del proyecto:
+    SLa aplicación sigue una arquitectura modular y bien estructurada, que separa los componentes de lógica de negocio, presentación y estilo. Esta organización facilita la escalabilidad y el mantenimiento del código.
 
 # Diseño basado en el patrón Observer
 
