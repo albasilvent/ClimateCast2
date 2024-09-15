@@ -1,0 +1,88 @@
+@import "../../../../variables";
+
+.dailySection{
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    margin: 2rem auto;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.paragraphsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.lastUpdate{
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.forecastContainer{
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+}
+
+.card {
+    width: 7vw;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:1rem;
+    align-items: center;
+    background-color: white;
+    transition: all 0.3s ease;
+
+  }
+  
+  .card.active {
+    background-color: $shadow-color;
+    transform: scale(1.1); 
+  }
+  
+
+.cardHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 22px;
+}
+
+.p{
+    color:$primary-color
+}
+
+.bigIcon{
+    font-size: 70px;
+    color: $primary-color
+}
+
+.thin{
+    font-weight: 400;
+}
+
+.grey{
+    color: $primary-color
+}
+

@@ -1,0 +1,21 @@
+@import "../../../../../../variables";
+
+.titleContainer{
+    padding: 0.5rem
+}
+
+.pDate{
+    font-size: 20px;
+}
+
+.modalButton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    width: 200px;
+    margin-left: 2rem;
+    height: 3rem;
+    font-size: 18px;
+}
+
