@@ -60,29 +60,20 @@ export default function Conditions({ infoData }: ConditionsPropsType) {
     <div className="conditionContainer">
       <h3 className="condictionsTitle">{t('conditions')}:</h3>
       <div className="container">
-        {conditions.map((column, colIndex) => {
-          return (
-            <>
-              <div key={column[0]?.label} className="div">
-                {column.map((condition, index) => {
-                  return (
-                    <>
-                      <div key={condition.label} className="condition">
-                        <condition.icon className="icon" />
-                        <p className="bold">{t(condition.label)}</p>
-                        <p>{condition.data}</p>
-                      </div>
-                      {index !== column.length - 1 && <Divider />}
-                    </>
-                  );
-                })}
+        {conditions.map((column, colIndex) => (
+          <div key={`column-${colIndex}`} className="div">
+            {column.map((condition) => (
+              <div key={condition.label} className="condition">
+                <condition.icon className="icon" />
+                <p className="bold">{t(condition.label)}</p>
+                <p>{condition.data}</p>
               </div>
-              {colIndex !== conditions.length - 1 && (
-                <Divider orientation="vertical" />
-              )}
-            </>
-          );
-        })}
+            ))}
+            {colIndex !== conditions.length - 1 && (
+              <Divider orientation="vertical" />
+            )}
+          </div>
+        ))}
       </div>
     </div>
   );

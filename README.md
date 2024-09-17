@@ -12,13 +12,19 @@ Para que la aplicación funcione correctamente, debes seguir estos pasos antes d
 
 3. Ejecutar el comando npm install para instalar las dependencias necesarias.
 
-4. Crear un archivo .env en la raíz del proyecto e incluir tu clave de API (API_KEY) para los servicios de clima. Un ejemplo del archivo .env sería:
+4. Crear un archivo .env en la raíz del proyecto e incluir tu clave de API (API_KEY) para los servicios de clima.
 
-# TESTING
+# ARRANCAR EL PROYECTO
 
 Una vez configurado todo, puedes iniciar el servidor de desarrollo con el siguiente comando:
 
 npm run dev
+
+# TESTING
+
+Para arrancar los test. utilizar el comando:
+
+npm run test
 
 # Tecnologías y herramientas utilizadas
 
